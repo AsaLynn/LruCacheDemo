@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LruCacheDemo</string>
+    <string name="action_settings">action_settings</string>
+</resources>

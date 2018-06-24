@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mydemo.MainActivity">
+    <item
+        android:id="@+id/action1"
+        android:orderInCategory="100"
+        android:title="清除全部缓存"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action2"
+        android:orderInCategory="100"
+        android:title="已经缓存大小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action3"
+        android:orderInCategory="100"
+        android:title="缓存容量大小"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action4"
+        android:orderInCategory="100"
+        android:title="hitCount"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action5"
+        android:orderInCategory="100"
+        android:title="missCount"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action6"
+        android:orderInCategory="100"
+        android:title="createCount"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action7"
+        android:orderInCategory="100"
+        android:title="添加缓存次数"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action8"
+        android:orderInCategory="100"
+        android:title="清除缓存次数"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action9"
+        android:orderInCategory="100"
+        android:title="重新设置缓存容量"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action10"
+        android:orderInCategory="100"
+        android:title="删除缓存到500kb以下"
+        app:showAsAction="never" />
+</menu>
